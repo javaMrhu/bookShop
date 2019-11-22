@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bookShop:war exploded">
+    <output-path>F:/bookShop/web/WEB-INF/classes/artifacts/bookShop_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bookShop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.mysql.jdbc_5.1.5" />
+          <element id="library" level="project" name="standard" />
+          <element id="library" level="project" name="mysql-connector-java-5.0.8-bin" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="javax.mail-1.5.1" />
+          <element id="library" level="project" name="commons-logging-1.1.1" />
+          <element id="library" level="project" name="commons-io-2.2" />
+          <element id="library" level="project" name="commons-fileupload-1.2.2" />
+          <element id="library" level="project" name="commons-dbutils-1.4" />
+          <element id="library" level="project" name="c3p0-0.9.1.2" />
+          <element id="library" level="project" name="commons-beanutils-1.8.3" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="bookShop/web/Web" />
+    </root>
+  </artifact>
+</component>
